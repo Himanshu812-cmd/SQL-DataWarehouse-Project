@@ -11,7 +11,7 @@ Script Purpose:
 WARNING:
     Running the script with drop the entire 'DataWarehouse' Database if it exists.
     All data in the database will be permanently deleted. Proceed with caution 
-and ensure you have proper backups before running this script.
+    and ensure you have proper backups before running this script.
 */
 
 -- Drop the Database if it already exists
