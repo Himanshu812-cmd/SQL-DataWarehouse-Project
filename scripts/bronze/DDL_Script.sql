@@ -12,12 +12,12 @@ Script Purpose:
 
 CREATE TABLE bronze_crm_cust_info(
 cst_id INT PRIMARY KEY,
-cst_key INT NOT NULL,
-cst_firstname VARCHAR(30) NOT NULL,
-cst_lastname VARCHAR(30) NOT NULL,
-cst_marital_status ENUM('M','S') NOT NULL,
-cst_gndr ENUM('M','F','Other')NOT NULL,
-cst_create_date DATE NOT NULL
+cst_key VARCHAR(30),
+cst_firstname VARCHAR(30),
+cst_lastname VARCHAR(30),
+cst_marital_status ENUM('M','S'),
+cst_gndr ENUM('M','F','Other'),
+cst_create_date DATE
 );
 
 -- Creating Table: bronze_crm_prd_info
